@@ -12,6 +12,10 @@ export default class Info5 extends React.Component {
                     <h1 className="w9"> address all of our patients'dental health needs. </h1>
                     <h1 className="w9">By combining quality patient care with up-to-date technology,</h1>
                     <h1 className="w9"> we are able to treat patients of all ages in a comfortable and relaxing setting  </h1>
+                    <h1 className="w14">______</h1>
+                    <h1 className="w14">______</h1>
+                    <h1 className="w14">______</h1>
+                    <button className="button2">read more</button>
                 </div>
                 <div className="imag">
                     <img src="/img/dentista.png" alt="dentista"/>

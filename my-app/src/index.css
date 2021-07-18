@@ -6,20 +6,9 @@ a{text-decoration: none; font-weight: bold;}
     .nav a{width: 1000px;padding-top: 500px; text-align: center; padding: 25px 5% 20px ; color:rgb(255, 255, 255);font-size: 20px;}
     .buttonMob{order:1; text-align: right; width: 75.00%; padding: 20px 5% 20px}
     
-.menu{background-color: rgba(0, 0, 0, 0.479);width: 300px;text-align: center;display:none;}
+.menu{background-color: rgba(0, 160, 223, 0.466);width: 300px;text-align: center;display:none;}
     
 
-.logo{float:center; 
-    display: grid;
-    width: fit-content;}
-
-    .log a{text-align: left; 
-        padding: 100px 10px 15px 15%;
-        color:rgb(255, 255, 255);}
-
-    .logima{display: inline-block; 
-            padding: 0px 1000px; 
-            color:rgb(255, 255, 255);}
 
 .info{background: rgb(0, 160, 223);
     order: 3;
@@ -96,11 +85,37 @@ a{text-decoration: none; font-weight: bold;}
 }
 
 
-.w1{text-align: center;
-    color: rgb(255, 255, 255); }
+.back{background-color: rgb(0, 160, 223);
+padding-top: 30px;
+}
+.back2{background-color:rgb(31, 31, 31);
+    padding: 50px;
+    }
 
-.w2{text-align: center;
-    color: rgb(255, 255, 255)}
+.w-l{position: relative;
+    top: -450px;
+    left: 125px;
+    font-size: 50px;
+    color:rgb(0, 160, 223)
+}
+.w-l2{position: relative;
+    top: -430px;
+    left: 125px;
+    font-size: 20px;
+}
+
+
+.w1{text-align: center;
+    color: rgb(255, 255, 255);
+font-size: 100px; }
+
+.w2{text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 15px;}
+    
+.w22{text-align: left;
+        color: rgba(0, 0, 0, 0.466);
+        font-size: 15px;}
 
 .w3{text-align: center;
     color: rgb(0, 160, 223); 
@@ -143,34 +158,120 @@ a{text-decoration: none; font-weight: bold;}
     left: 500px;
     top: 30px}
 
+.w12{font-size: 22px;
+    text-align: center;
+}
+
+.w13{font-size: 50px;
+    text-align: center;
+    color: rgb(0, 160, 223)}
+
+.w14{font-size: 12px;
+        text-align: center;
+        text-indent: 10px;
+        color: rgb(255, 255, 255)}
+    
+.w15{font-size: 20px;
+        text-align: center;
+        padding-bottom: 30px;
+        color: rgb(255, 255, 255)}
+        
+.w16{font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(255, 255, 255)}
+
+.w17{font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(255, 255, 255)}
+
+.w18{  color: rgb(0, 160, 223);
+    padding: 10px;}
+
+.w19{  color: rgba(0, 0, 0, 0.5);
+    padding: 10px;}
+
+.w20{color: rgba(255, 255, 255, 0.801);
+    padding: 10px;
+    position: relative;
+    left: 20%;        
+}
+
+
 .barreira{
-    height: 450px;
+    height: 250px;
     margin-bottom: 45px;
     padding-top: 30px;
 }
-.barreira{
-    height: 450px;
-    margin: 45px;
-    padding: 30px;
+.barreira2{
+    margin-bottom: 45px;
+    padding-top: 100px;
 }
 
+
+.button {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: rgb(37, 37, 37);
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 30px;
+    cursor: pointer;
+  }
+.button2 {
+    background-color: rgb(0, 160, 223); /* Green */
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 10px;
+    cursor: pointer;
+  }
+
 .imag{position: relative;
-    top: 1%;
+    top: -100px;
     left:50%;}
 
 .imag2{position: relative;
     top: -60px;
     left: 20%;}
 
+.imag3{position: relative;
+        top: 0px;
+        left: 58%;}
+
+
 .g-c{
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #ffffff;
-    padding: 10px 10%;
-    grid-gap: 50px 100px;
+    padding: 10px 20%;
+    grid-gap: 50px 50px;
 }
 .g-i{
     background-color: rgb(0, 160, 223);
-    padding: 100px 30px;
+    padding: 75px 30px;
     text-align: center;
   }
+
+.g-t{    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(0, 160, 223);
+    padding: 10px 20%;
+    grid-gap: 50px 50px;}
+
+ .g-p{
+    background-color: rgb(255, 255, 255);
+    padding: 25px 30px;
+    text-align: center;
+      }
+.g-a{    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20%;
+    grid-gap: 50px 50px;}
+
+    .image-gallery{float:center; width: 90%; margin: 100 8%;}

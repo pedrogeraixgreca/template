@@ -9,8 +9,10 @@ export default class Info4 extends React.Component {
     <h5 className="w6">Make your dream smile a reality!</h5>
     <h5 className="w3">       ______        </h5>
     <p className="w5">Call us or book your appointment today</p>
-        </div>
-  </div>
+    <button className="button">book appointment</button>
+   </div>
+   
+</div>
 
         );
     }
